@@ -1,5 +1,9 @@
 package com.demiurgos;
 
+import javax.swing.text.html.HTMLDocument;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,6 +19,9 @@ public class Main {
             //Look at all Flight names
             //Add new Flight
             //Remove a Flight
+
+        //Airport a1 = new Airport();
+
     }
 
     //Group 1 => Andreas Lanhede, Christian Tallner, Daniel Lingberg, Fredrik Karmsten
