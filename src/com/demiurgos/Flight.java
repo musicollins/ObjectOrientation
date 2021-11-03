@@ -19,13 +19,10 @@ public class Flight {
             FlightName = "Unknown";
         }
     }
-
-
     //Returns a String with FlightName
     public String GetFlightName(){
         return FlightName;
     }
-
     //Changes State of variable FlightName
     public void SetFlightName(String newName){
         //CheckIfFlightNameIsValid(newName) => true
@@ -34,7 +31,6 @@ public class Flight {
         }
 
     }
-
     //Returns an int with Height value
     public int GetHeight(){
         return Height;
@@ -47,7 +43,6 @@ public class Flight {
             Height = height;
         }
     }
-
     //Checks if new value for FlightName is valid
     private boolean CheckIfNewFlightNameIsValid(String newName) {
         if(newName.equals("Obsenity") || newName.isEmpty())
