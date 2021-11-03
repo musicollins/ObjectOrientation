@@ -20,7 +20,30 @@ public class Main {
             //Add new Flight
             //Remove a Flight
 
-        //Airport a1 = new Airport();
+        Airport a1 = new Airport("Arlanda", "Sweden", "Stockholm");
+        System.out.println(a1.getName());
+        System.out.println(a1.getCountry());
+        System.out.println(a1.getCity());
+        //System.out.println(a1.getFlights().isEmpty());
+        Flight f1 = new Flight("F2 554");
+        Flight f2 = new Flight("C3 678");
+        Flight f3 = new Flight("B4 999");
+        a1.AddFlight(f1);
+        a1.AddFlight(f2);
+        a1.AddFlight(f3);
+        //System.out.println(a1.getFlights().isEmpty());
+
+        System.out.println("Flights List");
+        //System.out.println(a1.getFlights());
+/*        for ( Flight flight : a1.getFlights()) {
+            System.out.println(flight.GetFlightName());
+        }*/
+        int arraySize = a1.getFlights().size();
+        for (int i = 0; i < arraySize; i++){
+            Flight flight = a1.getFlights().get(i);
+            System.out.println(flight.GetFlightName());
+        }
+
 
     }
 

@@ -47,11 +47,11 @@ public class Flight {
     private boolean CheckIfNewFlightNameIsValid(String newName) {
         if(newName.equals("Obsenity") || newName.isEmpty())
         {
-            System.out.println("Try Again! Name is not valid");
+            //System.out.println("Try Again! Name is not valid");
             return false;
 
         }else{
-            System.out.println("FlightName variable changed from " + FlightName +" To " + newName);
+            //System.out.println("FlightName variable changed from " + FlightName +" To " + newName);
             return true;
 
         }
